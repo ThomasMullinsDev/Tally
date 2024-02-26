@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="OQI-0c-SuS">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OSs-Nz-oeA">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="277.33333333333331"/>
+                                        <color key="backgroundColor" red="0.25942468070000002" green="0.86215672350000006" blue="0.73397264969999998" alpha="0.84999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oAW-5M-PYN">
+                                        <rect key="frame" x="0.0" y="287.33333333333337" width="393" height="277.33333333333337"/>
+                                        <color key="backgroundColor" red="0.20271071069999999" green="0.20271071069999999" blue="0.20271071069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UK1-y0-RK2">
+                                        <rect key="frame" x="0.0" y="574.66666666666663" width="393" height="277.33333333333337"/>
+                                        <color key="backgroundColor" red="0.92128556969999997" green="0.39540840350000001" blue="0.35855427169999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.20271071069999999" green="0.20271071069999999" blue="0.20271071069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="OQI-0c-SuS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="FhA-wU-0wU"/>
+                            <constraint firstItem="OQI-0c-SuS" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="O7N-2X-dtQ"/>
+                            <constraint firstAttribute="bottom" secondItem="OQI-0c-SuS" secondAttribute="bottom" id="XcK-oM-THw"/>
+                            <constraint firstItem="OQI-0c-SuS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="awx-ji-eJo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+</document>
